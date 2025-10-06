@@ -3,10 +3,10 @@ body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #050505;
         }
         header {
-            background-color: #12063393;
+            background-color: #eb08f379;
             color: white;
             padding: 10px 0;
             text-align: center;
@@ -19,6 +19,9 @@ body {
             flex-wrap: wrap;
             gap: 10px;
             justify-content: center;
+            border: #050505;
+            padding: 10px;
+            background-color: #fffffff6;
         }
         .photo {
             flex: 1 1 calc(33.333% - 20px);
@@ -40,7 +43,7 @@ body {
             }
         }
         footer {
-            background-color: #12063393;
+            background-color: #eb08f379;
             color: white;
             text-align: center;
             padding: 10px 0;
