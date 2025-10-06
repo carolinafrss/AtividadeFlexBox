@@ -1,0 +1,50 @@
+/* Página de Customização do arquivo index.html */
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #12063393;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .photo {
+            flex: 1 1 calc(33.333% - 20px);
+            box-sizing: border-box;
+        }
+        .photo img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        @media (max-width: 768px) {
+            .photo {
+                flex: 1 1 calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .photo {
+                flex: 1 1 100%;
+            }
+        }
+        footer {
+            background-color: #12063393;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
