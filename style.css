@@ -25,6 +25,7 @@ main {
     border: #050505;
     padding: 10px;
     background-color: #080808f6;
+
 }
 
 .photo {
@@ -38,6 +39,12 @@ main {
     border-radius: 10px;
 }
 
+.photo:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(187, 46, 243, 0.897);
+    cursor: pointer;
+    }
 @media (max-width: 768px) {
     .photo {
         flex: 1 1 calc(50% - 20px);
